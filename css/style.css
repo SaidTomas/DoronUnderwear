@@ -201,9 +201,7 @@ footer i {
 
   /* Tablet Styles */
 @media only screen and (min-width: 768px) {
-    body {
-        /*background-color: #F5CF8E;  Yellow */
-    }
+
     header {
         height: 12vh;
         flex-direction: row;
@@ -381,10 +379,6 @@ footer i {
 
 /*Header Desktop Styles */
 @media only screen and (min-width: 1025px) {
-    body {
-      /*background-color: #B2D6FF;  Blue */
-    }
-
 header {
     padding: .5rem 2rem;
     display: flex;
