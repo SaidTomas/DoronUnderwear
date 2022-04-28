@@ -385,7 +385,7 @@ header {
     flex-direction: row;
 }
 header h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
     display: inline-flex;
 }
@@ -549,11 +549,25 @@ footer i {
 
 
 .subcontacto {
+    font-size: 40px;
     text-align: center;
     text-decoration: none;
     margin: 2rem auto;
     position: relative;
     bottom: 50px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 .fondo {
     display: flex;
@@ -581,7 +595,25 @@ footer i {
     position: relative;
     font-size: larger;
 }
+input{
+    transition: 2s;
 }
+
+input:focus {
+    font-size: 30px;
+    border: 3px dotted #000;
+    color: #78866b;
+}
+textarea {
+    transition: 2s;
+}
+textarea:focus {
+    font-size: 20px;
+    border: 3px dotted #000;
+    color: #78866b;
+}
+}
+
 
 /*SobreDoron*/
 .aboutus {
