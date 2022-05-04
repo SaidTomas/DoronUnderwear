@@ -3,10 +3,135 @@
     margin: 0%;
     padding: 0%;
 }
+body {
+
+}
+.body-home {
+    background-color: #78866b;
+}
+                    /*INICIO NAVBAR*/
+
+.navbar {
+    background-color:#78866b ;
+}
+#navbar a {
+    color: black;
+}
+.navbar-expand-md .navbar-collapse {   /*???????????*/
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: flex-end;
+}
+
+
+                    /* FINALIZO NAVBAR*/
+                    
+                    /*INICIO JUMBOTRON*/
+                
+
+#jumbotron {
+height: 450px;
+width: 100vw;
+background-image: url(/paginas/imagenes/doronblondas.jpg);
+background-size: cover;
+background-position: center;
+border-radius: 0;
+margin-bottom: 0;
+}
+#jumbotron h1 {
+    color: beige;
+    font-size: 30px;
+}
+#jumbotron p {
+    color: beige;
+    text-shadow: 0 0 5px #000;
+    font-size: 20px;
+}
+                    /*FINALIZO JUMBOTRON*/
+                    /*INICIO CAROUSEL*/
+#carousel-home {
+    width: 100vw;
+    max-width: 760px;
+    background-color: #decdbe;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.titulocarousel {
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+.parrafocarousel {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.parrafocarousel2 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+                    /*FINALIZO CAROUSEL*/
+                    /*INICIO SOBRE NOSOTROS*/
+.sobrenosotros {
+    background-color:#78866b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-family: auto;
+    margin: auto;
+    padding: 15px;
+}
+.apartadohome {
+    background-color: #decdbe;
+}
+
+                    /*FINALIZO SOBRE NOSOTROS*/
+                    /*INICIO FOOTER*/
+footer {
+    height: 150px;
+    width: 100%;
+    background-color: #333;
+    color:beige;
+    text-align: center;
+}
+footer p {
+    font-size: 20px;
+
+}
+footer a {
+    font-size: 20px;
+    letter-spacing: 25px;
+    color: beige;
+}
+                    /*FINALIZO FOOTER*/
+                    /*SCROLOLSPY(SOBRE DORON)*/
+#sobrenosotros {
+    background-color:#AD9466;
+}
+#queofrecemos {
+    background-color: #decdbe;
+}
+#preguntasfrecuentes {
+    background-color: #e5d8c8;
+}
+
+
+
+
+
+
+
+
+
 
 
 /* Mobile Styles */
-@media only screen and (min-width: 320px) {
+    /* @media only screen and (min-width: 320px) {
     body {
         margin-bottom: 10vh;
         background-color: #d5d5d5;   
@@ -33,10 +158,10 @@
     }
 
 
-    /*Nav*/
+    /*Nav*/ 
 
 
-    nav ul {
+    /* nav ul {
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
@@ -125,7 +250,7 @@
     /*Comentario para las imagenes*/
 
 
-.calidad {
+/*.calidad {
     text-align: center;
     font-size: auto;
     font-weight: 600;
@@ -139,7 +264,7 @@
     /*Footer*/
 
 
-footer {
+/*footer {
     background-color: rgb(73, 68, 61);
     padding: 1.5rem;
     height: 9vh;
@@ -166,7 +291,7 @@ footer i {
 /*Contacto*/
 
 
-.subcontacto {
+/*.subcontacto {
     text-align: center;
     text-decoration: none;
     margin: 2rem auto;
@@ -196,11 +321,11 @@ footer i {
     width: 80vw;
     height: 250px;
 }
-}
 
 
-  /* Tablet Styles */
-@media only screen and (min-width: 768px) {
+
+    /* Tablet Styles */
+    /*@media only screen and (min-width: 768px) {
 
     header {
         height: 12vh;
@@ -225,7 +350,7 @@ footer i {
     /*Nav*/
 
 
-    nav ul {
+    /*nav ul {
         display: flex;
         flex-direction: row;
         gap: 1rem;
@@ -309,7 +434,7 @@ footer i {
     /*Comentario para las imagenes*/
 
 
-.calidad {
+/*.calidad {
     text-align: center;
     font-size: 4rem;
     font-weight: 600;
@@ -323,7 +448,7 @@ footer i {
     /*Footer*/
 
 
-footer {
+/*footer {
     background-color: rgb(73, 68, 61);
     padding: 1.5rem;
     height: 9vh;
@@ -351,7 +476,7 @@ footer i {
 
 
 
-.fondo {
+/*.fondo {
     display: flex;
     background-color: #78866b;
     height: 60vh;
@@ -378,7 +503,7 @@ footer i {
 
 
 /*Header Desktop Styles */
-@media only screen and (min-width: 1025px) {
+/*@media only screen and (min-width: 1025px) {
 header {
     padding: .5rem 2rem;
     display: flex;
@@ -401,7 +526,7 @@ header h1 {
 
 /*Nav*/
 
-header {
+/*header {
     display: flex;
     justify-content: space-between;
 }
@@ -507,7 +632,7 @@ nav ul li a:hover {
 /*Footer*/
 
 
-footer {
+/*footer {
     background-color: rgb(73, 68, 61);
     padding: 1.5rem;
     height:auto;
@@ -534,7 +659,7 @@ footer i {
 /*Comentario para las imagenes*/
 
 
-.calidad {
+/*.calidad {
     text-align: center;
     font-size: x-large;
     font-weight: 600;
@@ -548,7 +673,7 @@ footer i {
 /*Contacto*/
 
 
-.subcontacto {
+/*.subcontacto {
     font-size: 40px;
     text-align: center;
     text-decoration: none;
@@ -616,7 +741,7 @@ textarea:focus {
 
 
 /*SobreDoron*/
-.aboutus {
+/*.aboutus {
     width: 80%;
     margin: 1rem auto;
 }
@@ -693,7 +818,7 @@ textarea:focus {
 }
 
 /*Male*/
-.subtitulomale {
+/*.subtitulomale {
     text-align: center;
     text-decoration: underline;
     margin: 1.5rem auto;
@@ -793,7 +918,7 @@ textarea:focus {
 }
 
 /*Female*/
-.subtitulofemale {
+/*.subtitulofemale {
     text-align: center;
     text-decoration: underline;
     margin: 1.5rem auto;
