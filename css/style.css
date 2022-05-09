@@ -1,1039 +1,258 @@
 /*General*/
 * {
-    margin: 0%;
-    padding: 0%;
+  margin: 0%;
+  padding: 0%;
 }
+
 .body-contact {
-    background-color:#decdbe;
+  background-color: #decdbe;
 }
+
 .body-home {
-    background-color: #78866b;
+  background-color: #78866b;
 }
+
 .body-male {
-    background-color: #decdbe;
+  background-color: #decdbe;
 }
+
 .body-female {
-    background-color: #decdbe;
+  background-color: #decdbe;
 }
-                    /*INICIO NAVBAR*/
+
+/*INICIO NAVBAR*/
 .navbar-brand {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
 }
+
 .navbar-brand span {
-    color: #4b5443;
+  color: #4b5443;
 }
+
 .navbar {
-    background-color:#78866b ;
+  background-color: #78866b;
 }
+
 #navbar a {
-    color: black;
+  color: black;
 }
-.navbar-expand-md .navbar-collapse {   /*???????????*/
-    display: flex!important;
-    flex-basis: auto;
-    justify-content: flex-end;
+
+.navbar-expand-md .navbar-collapse {
+  /*???????????*/
+  display: flex !important;
+  flex-basis: auto;
+  justify-content: flex-end;
 }
+
 .linkactive {
-    color: black;
+  color: black;
 }
 
-
-                    /* FINALIZO NAVBAR*/
-                    
-                    /*INICIO JUMBOTRON*/
-                
-
+/* FINALIZO NAVBAR*/
+/*INICIO JUMBOTRON*/
 #jumbotron {
-height: 450px;
-width: 100vw;
-background-image: url(/paginas/imagenes/doronblondas.jpg);
-background-size: cover;
-background-position: center;
-border-radius: 0;
-margin-bottom: 0;
+  height: 450px;
+  width: 100vw;
+  background-image: url(/paginas/imagenes/doronblondas.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0;
+  margin-bottom: 0;
 }
+
 #jumbotron h1 {
-    color: beige;
-    font-size: 30px;
+  color: beige;
+  font-size: 30px;
 }
+
 #jumbotron p {
-    color: beige;
-    text-shadow: 0 0 5px #000;
-    font-size: 20px;
+  color: beige;
+  text-shadow: 0 0 5px #000;
+  font-size: 20px;
 }
-                    /*FINALIZO JUMBOTRON*/
-                    /*INICIO CAROUSEL*/
+
+/*FINALIZO JUMBOTRON*/
+/*INICIO CAROUSEL*/
 #carousel-home {
-    width: 100vw;
-    max-width: 760px;
-    background-color: #decdbe;
-    margin-right: 0;
-    margin-left: 0;
-    padding-left: 0;
-    padding-right: 0;
+  width: 100vw;
+  max-width: 760px;
+  background-color: #decdbe;
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
+
 .titulocarousel {
-    font-size: 60px;
-    font-family:'Bebas Neue', sans-serif;
-    text-align: center;
-
+  font-size: 60px;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
 }
+
 .icono-boxer {
-    text-align: center;
-}                   /*?????????*/
+  text-align: center;
+}
+
+/*?????????*/
 .parrafocarousel {
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: rgb(0, 0, 0);
 }
 
-                    /*FINALIZO CAROUSEL*/
-                    /*INICIO SOBRE NOSOTROS*/
+/*FINALIZO CAROUSEL*/
+/*INICIO SOBRE NOSOTROS*/
 .sobrenosotros {
-    background-color:#78866b;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 24px;
-    font-family: inherit;
-    margin: auto;
-    padding: 15px;
+  background-color: #78866b;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  font-family: inherit;
+  margin: auto;
+  padding: 15px;
 }
+
 .apartadohome {
-    background-color: #decdbe;
+  background-color: #decdbe;
 }
 
-                    /*FINALIZO SOBRE NOSOTROS*/
-                    /*INICIO FOOTER*/
+/*FINALIZO SOBRE NOSOTROS*/
+/*INICIO FOOTER*/
 footer {
-    height: 150px;
-    width: 100%;
-    background-color: #333;
-    color:beige;
-    text-align: center;
+  height: 150px;
+  width: 100%;
+  background-color: #333;
+  color: beige;
+  text-align: center;
 }
+
 footer p {
-    font-size: 20px;
-
+  font-size: 20px;
 }
+
 footer a {
-    font-size: 20px;
-    letter-spacing: 25px;
-    color: beige;
+  font-size: 20px;
+  letter-spacing: 25px;
+  color: beige;
 }
-                    /*FINALIZO FOOTER*/
-                    /*INICIO SCROLOLSPY(SOBRE DORON)*/
-#sobrenosotros {
-    background-color:#AD9466;
-    text-align: center;
-}
-#queofrecemos {
-    background-color: #decdbe;
-    text-align: center;
-}
-#preguntasfrecuentes {
-    background-color: #e5d8c8;
-    text-align: center;
-}
-                    /*FINZALIZO SCROLLSPY (SOBRE DORON)*/
-                    /*INICIO CONTENEDOR DE CONTACTO*/
-.contenedor .form .form-header .form-title {
-    font-weight: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #78866b;
-    text-align: center;
-    padding:14px 0 ;
-}
-.contenedor .form .form-header .form-title span {
-color: beige;
-}
-.contenedor .form {
-    background: rgba(0, 0, 0, .6);
-    width: 90%;
-    max-width: 650px;
-    margin: auto;
-    padding: 5px 35px;
-    margin-top: 30px;
-    padding-bottom: 30px;
-    border-radius:3px ;
-}
-.contenedor .form .form-label {
-    display: block;
-    color: #78866b;
-    font-size: 20px;
-    font-family: Roboto;
-    position: relative;
-}
-.contenedor .form .form-input, .form-textarea {
-    background: rgba(0, 0, 0, .7);
-    border: none;
-    outline: none;
-    border-bottom: 2px solid #333;
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 20px;
-    border-radius: 2px;
-    font-size: 14px;
-    color: #decdbe;
-    font-family: Roboto;
 
+/*FINALIZO FOOTER*/
+/*INICIO SCROLOLSPY(SOBRE DORON)*/
+#sobrenosotros {
+  background-color: #AD9466;
+  text-align: center;
 }
-.contenedor .form  .form-textarea {
-    resize: vertical;
-    max-height: 150px;
-    min-height: 50px;
+
+#queofrecemos {
+  background-color: #decdbe;
+  text-align: center;
 }
+
+#preguntasfrecuentes {
+  background-color: #e5d8c8;
+  text-align: center;
+}
+
+/*FINZALIZO SCROLLSPY (SOBRE DORON)*/
+/*INICIO CONTENEDOR DE CONTACTO*/
+.contenedor .form .form-header .form-title {
+  font-weight: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #78866b;
+  text-align: center;
+  padding: 14px 0;
+}
+
+.contenedor .form .form-header .form-title span {
+  color: beige;
+}
+
+.contenedor .form {
+  background: rgba(0, 0, 0, 0.6);
+  width: 90%;
+  max-width: 650px;
+  margin: auto;
+  padding: 5px 35px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 3px;
+}
+
+.contenedor .form .form-label {
+  display: block;
+  color: #78866b;
+  font-size: 20px;
+  font-family: Roboto;
+  position: relative;
+}
+
+.contenedor .form .form-input, .form-textarea {
+  background: rgba(0, 0, 0, 0.7);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #333;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #decdbe;
+  font-family: Roboto;
+}
+
+.contenedor .form .form-textarea {
+  resize: vertical;
+  max-height: 150px;
+  min-height: 50px;
+}
+
 .contenedor .form .btn-submit {
-    width: 100%;
-    font-family: Roboto;
-    outline: none;
-    background: #78866b;
-    font-size: 20px;
-    border: none;
-    padding: 15px 0 ;
-    cursor: pointer;
-    transition: all .5s ease;
+  width: 100%;
+  font-family: Roboto;
+  outline: none;
+  background: #78866b;
+  font-size: 20px;
+  border: none;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
+
 .contenedor .form .btn-submit:hover {
-    background-color: #5d6853;
+  background-color: #5d6853;
 }
-                    /*FINALIZO CONTENEDOR DE CONTACTO*/
-                    /*INICIO MAPA*/
+
+/*FINALIZO CONTENEDOR DE CONTACTO*/
+/*INICIO MAPA*/
 .mapa {
-    display: block;
-    outline: block;
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 15px;
+  display: block;
+  outline: block;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 15px;
 }
-                    /*FINALIZO MAPA*/
-                    /*INICIO MEDIAS*/
+
+/*FINALIZO MAPA*/
+/*INICIO MEDIAS*/
 @media only screen and (min-width: 1025px) {
-#jumbotron {
+  #jumbotron {
     height: 820px;
     width: 100vw;
-    
-    }
-#jumbotron h1 {
+  }
+
+  #jumbotron h1 {
     text-align: center;
     justify-content: center;
     font-size: 50px;
-}
-#jumbotron p {
+  }
+
+  #jumbotron p {
     text-align: center;
     text-shadow: 0 0 5px #000;
     font-size: 30px;
+  }
 }
-}
-                    /*FINALIZO MEDIAS*/
-
-
-
-
-
-
-
-
-
-
-/* Mobile Styles */
-    /* @media only screen and (min-width: 320px) {
-    body {
-        margin-bottom: 10vh;
-        background-color: #d5d5d5;   
-    }
-    header {
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-        height: 20vh;
-    }
-    header h1 {
-        font-size: 2rem;
-        text-align: center;
-        display: inline-flex;
-        justify-content: center;
-    }
-    .titulo1 {
-        color:#78866b;
-        font-family: 'Bebas Neue', sans-serif;
-    }
-    .titulo2 {
-        color: black;
-        font-family: 'Bebas Neue', sans-serif;
-    }
-
-
-    /*Nav*/ 
-
-
-    /* nav ul {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-        margin: 0;
-    }
-    nav ul li {
-        list-style: none;
-        font-size: auto;
-        font-weight: auto;
-    }
-    nav ul li a {
-        text-decoration: none;
-        color: #78866b;
-    }
-    nav ul li a:hover {
-        color: black;
-    }
-    .linkactive {
-        color: black;
-    }
-    body {
-    font-family: 'Montserrat', sans-serif;
-    }
-    .paginaprincipal {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100vw;
-    }
-    .imageneshome {
-        width: 90vw;
-        height: 100vh;
-        display: grid;
-        grid-template-columns: repeat (1, 1fr);
-        grid-template-rows: repeat(4,1fr);
-        border: 0.5px solid #000;
-        grid-gap: 3px;
-    }
-    .item1 {
-        width: 90vw;
-        height: auto;
-        grid-column: 1/2;
-        grid-row: 1/2;
-        background-image: url(/paginas/imagenes/doronblondas.jpg);
-        background-size: cover;
-        background-position: center;
-        transition: 1s;
-        object-fit: cover;
-    }
-    
-    .item2 {
-        width: 90vw;
-        height: auto;
-        grid-column: 1/2;
-        grid-row: 2/3;
-        background-image: url(/paginas/imagenes/doronblondas2.jpg);
-        background-size: cover;
-        background-position: center;
-        transition: 1s;
-        object-fit: cover;
-    }
-    .item3 {
-        width: 90vw;
-        height: auto;
-        grid-column: 1/2;
-        grid-row: 3/4;
-        background-image: url(/paginas/imagenes/doronblondas3.jpg);
-        background-size: cover;
-        background-position: center;
-        transition: 1s;
-        object-fit: cover;
-    }
-    .item4 {
-        width: 90vw;
-        height: auto;
-        grid-column: 1/2;
-        grid-row: 4/5;
-        background-image: url(/paginas/imagenes/doronblondas4.jpg);
-        background-size: cover;
-        background-position: center;
-        transition: 1s;
-        object-fit: cover;
-    }
-
-
-    /*Comentario para las imagenes*/
-
-
-/*.calidad {
-    text-align: center;
-    font-size: auto;
-    font-weight: 600;
-    color: rgb(0, 0, 0);
-    text-decoration:underline;
-    padding: 4rem;
-    font-family: none;
-}
-
-
-    /*Footer*/
-
-
-/*footer {
-    background-color: rgb(73, 68, 61);
-    padding: 1.5rem;
-    height: 9vh;
-    width: 100vw;
-    position: fixed;
-    bottom: 0;
-}
-footer p {
-    padding: 20px;
-    text-align:center;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-    color: white;
-}
-footer i {
-    font-size:40px;
-    color: white;
-    letter-spacing: 15px;
-}
-
-
-/*Contacto*/
-
-
-/*.subcontacto {
-    text-align: center;
-    text-decoration: none;
-    margin: 2rem auto;
-    position: relative;
-    top: 20px;
-    bottom: 50px;
-}
-.fondo {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    background-color: #78866b;
-    width: 100vw;
-    margin-bottom: 14vh;
-}
-.mapa {
-    height: auto;
-    top: 50px;
-}
-.nuestrocontacto {
-    width: 86vw;
-    height: 183px;
-}
-.tusdatos {
-    width: 80vw;
-    height: 250px;
-}
-
-
-
-    /* Tablet Styles */
-    /*@media only screen and (min-width: 768px) {
-
-    header {
-        height: 12vh;
-        flex-direction: row;
-    }
-    header h1 {
-        font-size: 4rem;
-        text-align: center;
-        display: inline-flex;
-        justify-content: center;
-    }
-    .titulo1 {
-        color:#78866b;
-        font-family: 'Bebas Neue', sans-serif;
-    }
-    .titulo2 {
-        color: black;
-        font-family: 'Bebas Neue', sans-serif;
-    }
-
-
-    /*Nav*/
-
-
-    /*nav ul {
-        display: flex;
-        flex-direction: row;
-        gap: 1rem;
-        margin:0;
-        padding: 35px;
-    }
-    nav ul li {
-        list-style: none;
-        font-size: 2vw;
-        font-weight: auto;
-    }
-    nav ul li a {
-        text-decoration: none;
-        color: #78866b;
-    }
-    nav ul li a:hover {
-        color: black;
-    }
-    .linkactive {
-        color: black;
-    }
-    body {
-    font-family: 'Montserrat', sans-serif;
-    }
-    .paginaprincipal {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100vw;
-    }
-    .imageneshome {
-        width: 90vw;
-        height: 190vh;
-        display: grid;
-        grid-template-columns: repeat (1, 1fr);
-        grid-template-rows: repeat(4,1fr);
-        border: 0.5px solid #000;
-        grid-gap: 3px;
-    }
-    .item {
-        width: 90vw;
-        height: 430px;
-    }
-    .item :hover {
-        transform: none;
-    }
-    .item1 {
-        grid-column: 1/2;
-        grid-row: 1/2;
-        background-image: url(/paginas/imagenes/doronblondas.jpg);
-        background-size: cover;
-        background-position: center;
-        object-fit: cover;
-    }
-    .item2 {
-        grid-column: 1/2;
-        grid-row: 2/3;
-        background-image: url(/paginas/imagenes/doronblondas2.jpg);
-        background-size: cover;
-        background-position: center;
-        object-fit: cover;
-    }
-    .item3 {
-        grid-column: 1/2;
-        grid-row: 3/4;
-        background-image: url(/paginas/imagenes/doronblondas3.jpg);
-        background-size: cover;
-        background-position: center;
-        object-fit: cover;
-    }
-    .item4 {
-        grid-column: 1/2;
-        grid-row: 4/5;
-        background-image: url(/paginas/imagenes/doronblondas4.jpg);
-        background-size: cover;
-        background-position: center;
-        object-fit: cover;
-    }
-
-
-    /*Comentario para las imagenes*/
-
-
-/*.calidad {
-    text-align: center;
-    font-size: 4rem;
-    font-weight: 600;
-    color: rgb(0, 0, 0);
-    text-decoration:underline;
-    padding: 4rem;
-    font-family: none;
-}
-
-
-    /*Footer*/
-
-
-/*footer {
-    background-color: rgb(73, 68, 61);
-    padding: 1.5rem;
-    height: 9vh;
-    width: 100vw;
-    position: fixed;
-    bottom: 0;
-}
-footer p {
-    padding: 20px;
-    text-align:center;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-    color: white;
-}
-footer i {
-    font-size:40px;
-    color: white;
-    letter-spacing: 15px;
-}
-
-
-/*Contacto*/
-
-
-
-/*.fondo {
-    display: flex;
-    background-color: #78866b;
-    height: 60vh;
-    justify-content: center;
-    align-content: center;
-    align-items: flex-end;
-}
-.mapa {
-    width: 80vw;
-    position: relative;
-    top: 50px;
-}
-.nuestrocontacto {
-    width: 80vw;
-    height: 180px;
-    position: relative;
-    font-size:larger ;
-}
-.tusdatos {
-    height: 240px;
-    font-size: larger;
-}
-}
-
-
-/*Header Desktop Styles */
-/*@media only screen and (min-width: 1025px) {
-header {
-    padding: .5rem 2rem;
-    display: flex;
-    flex-direction: row;
-}
-header h1 {
-    font-size: 4rem;
-    text-align: center;
-    display: inline-flex;
-}
-.titulo1 {
-    color:#78866b;
-    font-family: 'Bebas Neue', sans-serif;
-}
-.titulo2 {
-    color: black;
-    font-family: 'Bebas Neue', sans-serif;
-}
-
-
-/*Nav*/
-
-/*header {
-    display: flex;
-    justify-content: space-between;
-}
-nav ul {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    margin: 1rem;
-    padding: 0 30px;
-}
-nav ul li {
-    list-style: none;
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-nav ul li a {
-    text-decoration: none;
-    color: #78866b;
-}
-nav ul li a:hover {
-    color: black;
-}
-
-.paginaprincipal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.imageneshome {
-    width: 50vw;
-    height: 50vh;
-    display: grid;
-    grid-template-areas:
-    "item1 item2"
-    "item3 item4"
-    ;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    border: 0.5px solid #000;
-    grid-gap: 3px;
-}
-.item1 {
-    width: 25vw;
-    height: auto;
-    grid-area: item1;
-    background-color: #78866b;
-    background-image: url(/paginas/imagenes/doronblondas.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 1s;
-    object-fit: cover;
-}
-.item1:hover {
-    transform: scale(1.3);
-}
-.item2 {
-    width: 25vw;
-    height: auto;
-    grid-area: item2;
-    background-color: #ec8508;
-    background-image: url(/paginas/imagenes/doronblondas2.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 1s;
-    object-fit: cover;
-}
-.item2:hover {
-    transform: scale(1.3);
-}
-.item3 {
-    width: 25vw;
-    height: auto;
-    grid-area: item3;
-    background-color: #307f97;
-    background-image: url(/paginas/imagenes/doronblondas3.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 1s;
-    object-fit: cover;
-}
-.item3:hover {
-    transform: scale(1.3);
-}
-.item4 {
-    width: 25vw;
-    height: auto;
-    grid-area: item4;
-    background-color: #af2f8f;
-    background-image: url(/paginas/imagenes/doronblondas4.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 1s;
-    object-fit: cover;
-}
-.item4:hover{
-    transform: scale(1.3);
-}
-
-
-/*Footer*/
-
-
-/*footer {
-    background-color: rgb(73, 68, 61);
-    padding: 1.5rem;
-    height:auto;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-}
-footer p {
-    padding: 20px;
-    text-align:center;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-    color: white;
-}
-footer i {
-    font-size:40px;
-    color: white;
-    letter-spacing: 15px;
-}
-
-
-/*Comentario para las imagenes*/
-
-
-/*.calidad {
-    text-align: center;
-    font-size: x-large;
-    font-weight: 600;
-    color: rgb(0, 0, 0);
-    text-decoration:underline;
-    padding: 2rem;
-    font-family: none;
-}
-
-
-/*Contacto*/
-
-
-/*.subcontacto {
-    font-size: 40px;
-    text-align: center;
-    text-decoration: none;
-    margin: 2rem auto;
-    position: relative;
-    bottom: 50px;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-delay: 5s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-}
-@keyframes aparecer {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-.fondo {
-    display: flex;
-    justify-content:space-around ;
-    flex-direction: row;
-    justify-items: center;
-    align-items: center;
-    background-color:#78866b;
-    padding: 0.5rem;
-    width: 100%;
-}
-.mapa {
-    width: 25%;
-    position: relative;
-}
-.nuestrocontacto {
-    width: 180px;
-    height: 180px;
-    position: relative;
-    font-size:larger ;
-}
-.tusdatos {
-    width: 180px;
-    height: 180px;
-    position: relative;
-    font-size: larger;
-}
-input{
-    transition: 2s;
-}
+/*FINALIZO MEDIAS*/
 
-input:focus {
-    font-size: 30px;
-    border: 3px dotted #000;
-    color: #78866b;
-}
-textarea {
-    transition: 2s;
-}
-textarea:focus {
-    font-size: 20px;
-    border: 3px dotted #000;
-    color: #78866b;
-}
-}
-
-
-/*SobreDoron*/
-/*.aboutus {
-    width: 80%;
-    margin: 1rem auto;
-}
-.sub10 {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    font-size: larger;
-}
-.sub11 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    text-decoration: underline;
-    align-items: flex-end;
-}
-.cajaimg {
-    width: 40vw;
-    height: 70vh;
-    display: grid;
-    grid-template-areas:
-    "item11 item12"
-    "item13 item13"
-    ;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    border: 0.5px solid #000;
-    grid-gap: 3px;
-}
-.item11 {
-    grid-area: item11;
-    background-color: #78866b;
-    background-image: url(/paginas/imagenes/variedad1.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 1s;
-    object-fit: cover;
-}
-.item11:hover {
-    transform: scale(1.3);
-}
-.item12 {
-    grid-area: item12;
-    background-color: #ec8508;
-    background-image: url(/paginas/imagenes/lisos.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 1s;
-    object-fit: cover;
-}
-.item12:hover {
-    transform: scale(1.3);
-}
-.item13 {
-    grid-area: item13;
-    background-color: #307f97;
-    background-image: url(/paginas/imagenes/variedad3.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 1s;
-    object-fit: cover;
-}
-.item13:hover {
-    transform: scale(1.3);
-}
-
-.sub12 {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    font-size: larger;
-    position: absolute;
-    top: 50%;
-}
-
-/*Male*/
-/*.subtitulomale {
-    text-align: center;
-    text-decoration: underline;
-    margin: 1.5rem auto;
-}
-.galeriamale {
-    height: auto;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.containermale {
-    width: 45vw;
-    height: 60vh;
-    display: grid;
-    grid-template-areas:
-    "item21 item22"
-    "item23 item24"
-    "item25 item26"
-    ;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 1fr 1fr 1fr ;
-    border: 0.5px solid #000;
-    grid-gap: 3px;
-}
-.item21 {
-    grid-area: item21;
-    background-color: #78866b;
-    background-image: url(/paginas/imagenes/blancoestampado.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 1s;
-    object-fit: cover;
-}
-.item21:hover {
-    transform: scale(1.3);
-}
-.item22 {
-    grid-area: item22;
-    background-color: #ec8508;
-    background-image: url(/paginas/imagenes/negroestampado.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 1s;
-    object-fit: cover;
-}
-.item22:hover {
-    transform: scale(1.3);
-}
-.item23 {
-    grid-area: item23;
-    background-color: #307f97;
-    background-image: url(/paginas/imagenes/militarestampado.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 1s;
-    object-fit: cover;
-}
-.item23:hover {
-    transform: scale(1.3);
-}
-.item24 {
-    grid-area: item24;
-    background-color: #af2f8f;
-    background-image: url(/paginas/imagenes/grisliso.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 1s;
-    object-fit: cover;
-}
-.item24:hover{
-    transform: scale(1.3);
-}
-.item25 {
-    grid-area: item25;
-    background-color: #8fb510;
-    background-image: url(/paginas/imagenes/grisestampado.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 1s;
-    object-fit: cover;
-}
-.item25:hover{
-    transform: scale(1.3);
-}
-.item26 {
-    grid-area: item26;
-    background-color: #6414a9;
-    background-image: url(/paginas/imagenes/estampadocolor.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 1s;
-    object-fit: cover;
-}
-.item26:hover{
-    transform: scale(1.3);
-}
-
-/*Female*/
-/*.subtitulofemale {
-    text-align: center;
-    text-decoration: underline;
-    margin: 1.5rem auto;
-}
-.caja {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-}
-.caja--img {
-    width: 15%;
-
-}
+/*# sourceMappingURL=style.css.map */
