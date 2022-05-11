@@ -1,33 +1,49 @@
+$color1: #78866b;
+$color2: #decdbe;
+$color3: #AD9466;
+$color4: #e5d8c8;
+$color5: #4b5443;
+
+
+$font1: 'Bebas Neue'; 
+$font2: verdana;
+$font3: inherit; 
+
+
 /*General*/
 * {
     margin: 0%;
     padding: 0%;
 }
 .body-contact {
-    background-color:#decdbe;
+    background-color: $color2;
 }
 .body-home {
-    background-color: #78866b;
+    background-color: $color1;
 }
 .body-male {
-    background-color: #decdbe;
+    background-color: $color2;
 }
 .body-female {
-    background-color: #decdbe;
+    background-color: $color2;
 }
                     /*INICIO NAVBAR*/
 .navbar-brand {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 50px;
 }
-.navbar-brand span {
-    color: #4b5443;
+.navbar-brand {
+    span {
+        color: $color5;
+}
 }
 .navbar {
-    background-color:#78866b ;
+    background-color:$color1 ;
 }
-#navbar a {
-    color: black;
+#navbar {
+    a {
+        color: black;
+    }
 }
 .navbar-expand-md .navbar-collapse {   /*???????????*/
     display: flex!important;
@@ -42,7 +58,6 @@
                     /* FINALIZO NAVBAR*/
                     
                     /*INICIO JUMBOTRON*/
-                
 
 #jumbotron {
 height: 450px;
@@ -53,21 +68,25 @@ background-position: center;
 border-radius: 0;
 margin-bottom: 0;
 }
-#jumbotron h1 {
-    color: beige;
-    font-size: 30px;
+#jumbotron { 
+    h1 {
+        color: beige;
+        font-size: 30px;
+    }
 }
-#jumbotron p {
-    color: beige;
-    text-shadow: 0 0 5px #000;
-    font-size: 20px;
+#jumbotron {
+    p {
+        color: beige;
+        text-shadow: 0 0 5px #000;
+        font-size: 20px;
+    }   
 }
                     /*FINALIZO JUMBOTRON*/
                     /*INICIO CAROUSEL*/
 #carousel-home {
     width: 100vw;
     max-width: 760px;
-    background-color: #decdbe;
+    background-color: $color2;
     margin-right: 0;
     margin-left: 0;
     padding-left: 0;
@@ -92,7 +111,7 @@ margin-bottom: 0;
                     /*FINALIZO CAROUSEL*/
                     /*INICIO SOBRE NOSOTROS*/
 .sobrenosotros {
-    background-color:#78866b;
+    background-color:$color1;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
     font-family: inherit;
@@ -100,7 +119,7 @@ margin-bottom: 0;
     padding: 15px;
 }
 .apartadohome {
-    background-color: #decdbe;
+    background-color: $color2;
 }
 
                     /*FINALIZO SOBRE NOSOTROS*/
@@ -112,35 +131,39 @@ footer {
     color:beige;
     text-align: center;
 }
-footer p {
-    font-size: 20px;
-
+footer {
+    p {
+        font-size: 20px;
+    }
 }
-footer a {
-    font-size: 20px;
-    letter-spacing: 25px;
-    color: beige;
+footer {
+    a {
+        font-size: 20px;
+        letter-spacing: 25px;
+        color: beige;
+    }
 }
                     /*FINALIZO FOOTER*/
                     /*INICIO SCROLOLSPY(SOBRE DORON)*/
+@mixin caja ($color) {
+background-color:$color3;
+text-align: center;
+}
 #sobrenosotros {
-    background-color:#AD9466;
-    text-align: center;
+@include caja($color3)
 }
 #queofrecemos {
-    background-color: #decdbe;
-    text-align: center;
+@include caja($color2)
 }
 #preguntasfrecuentes {
-    background-color: #e5d8c8;
-    text-align: center;
+@include caja($color4)
 }
                     /*FINZALIZO SCROLLSPY (SOBRE DORON)*/
                     /*INICIO CONTENEDOR DE CONTACTO*/
 .contenedor .form .form-header .form-title {
     font-weight: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #78866b;
+    color: $color1;
     text-align: center;
     padding:14px 0 ;
 }
@@ -159,7 +182,7 @@ color: beige;
 }
 .contenedor .form .form-label {
     display: block;
-    color: #78866b;
+    color: $color1;
     font-size: 20px;
     font-family: Roboto;
     position: relative;
@@ -174,7 +197,7 @@ color: beige;
     margin-bottom: 20px;
     border-radius: 2px;
     font-size: 14px;
-    color: #decdbe;
+    color: $color2;
     font-family: Roboto;
 
 }
@@ -187,7 +210,7 @@ color: beige;
     width: 100%;
     font-family: Roboto;
     outline: none;
-    background: #78866b;
+    background: $color1;
     font-size: 20px;
     border: none;
     padding: 15px 0 ;
@@ -195,17 +218,12 @@ color: beige;
     transition: all .5s ease;
 }
 .contenedor .form .btn-submit:hover {
-    background-color: #5d6853;
+    background-color: $color5;
 }
                     /*FINALIZO CONTENEDOR DE CONTACTO*/
                     /*INICIO MAPA*/
-.mapa {
-    display: block;
-    outline: block;
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 15px;
-}
+                    /*PASE EL MAPA PARA EL IMPORT PARA PROBAR*/
+@import "_main";
                     /*FINALIZO MAPA*/
                     /*INICIO MEDIAS*/
 @media only screen and (min-width: 1025px) {
@@ -226,3 +244,7 @@ color: beige;
 }
 }
                     /*FINALIZO MEDIAS*/
+
+
+
+
