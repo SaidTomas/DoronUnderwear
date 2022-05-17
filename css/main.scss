@@ -10,6 +10,13 @@ $font2: verdana;
 $font3: inherit; 
 
 
+$small: 15px;
+$medium: 24px;
+$large: 30px;
+$xlarge: 45px;
+$xxlarge: 60px;
+
+
 /*General*/
 * {
     margin: 0%;
@@ -225,13 +232,28 @@ color: beige;
                     /*PASE EL MAPA PARA EL IMPORT PARA PROBAR*/
 @import "_main";
                     /*FINALIZO MAPA*/
+                    /*INICIO EXTEND PARA PROBAR*/
+.card {
+    background-color: #333;
+    color: #78866b;
+    height: 800px;
+    width: 700px;
+}
+.card--nuevo {
+    @extend .card;
+    border-radius:3px ;
+    color: #decdbe;
+    font-family: $font1;
+    font-size: $large;
+}
+                    /*FINZALIZO EXTEND */
                     /*INICIO MEDIAS*/
 @media only screen and (min-width: 1025px) {
 #jumbotron {
     height: 820px;
     width: 100vw;
     
-    }
+}
 #jumbotron h1 {
     text-align: center;
     justify-content: center;
@@ -242,6 +264,11 @@ color: beige;
     text-shadow: 0 0 5px #000;
     font-size: 30px;
 }
+}
+
+
+@media only screen and (min-width: 576px) {
+
 }
                     /*FINALIZO MEDIAS*/
 
