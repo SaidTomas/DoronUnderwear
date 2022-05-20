@@ -1,0 +1,281 @@
+/*General*/
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.body-contact {
+  background-color: #decdbe;
+}
+
+.body-home {
+  background-color: #78866b;
+}
+
+.body-male {
+  background-color: #decdbe;
+}
+
+.body-cart {
+  background-color: #decdbe;
+}
+
+/*INICIO NAVBAR*/
+.navbar-brand {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 50px;
+}
+
+.navbar-brand span {
+  color: #4b5443;
+}
+
+.navbar {
+  background-color: #78866b;
+}
+
+#navbar a {
+  color: black;
+}
+
+.navbar-expand-md .navbar-collapse {
+  /*???????????*/
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.linkactive {
+  color: black;
+}
+
+/* FINALIZO NAVBAR*/
+/*INICIO JUMBOTRON*/
+#jumbotron {
+  height: 450px;
+  width: 100vw;
+  background-image: url(/paginas/imagenes/doronblondas.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+#jumbotron h1 {
+  color: beige;
+  font-size: 30px;
+}
+
+#jumbotron p {
+  color: beige;
+  text-shadow: 0 0 5px #000;
+  font-size: 20px;
+}
+
+/*FINALIZO JUMBOTRON*/
+/*INICIO CAROUSEL*/
+#carousel-home {
+  width: 100vw;
+  max-width: 760px;
+  background-color: #decdbe;
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.titulocarousel {
+  font-size: 60px;
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+}
+
+.icono-boxer {
+  text-align: center;
+}
+
+/*?????????*/
+.parrafocarousel {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: black;
+}
+
+/*FINALIZO CAROUSEL*/
+/*INICIO SOBRE NOSOTROS*/
+.sobrenosotros {
+  background-color: #78866b;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  font-family: inherit;
+  margin: auto;
+  padding: 15px;
+}
+
+.apartadohome {
+  background-color: #decdbe;
+}
+
+/*FINALIZO SOBRE NOSOTROS*/
+/*INICIO FOOTER*/
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: #333;
+  color: beige;
+  text-align: center;
+}
+
+footer p {
+  font-size: 20px;
+}
+
+footer a {
+  font-size: 20px;
+  letter-spacing: 25px;
+  color: beige;
+}
+
+/*FINALIZO FOOTER*/
+/*INICIO SCROLOLSPY(SOBRE DORON)*/
+#sobrenosotros {
+  background-color: #AD9466;
+  text-align: center;
+}
+
+#queofrecemos {
+  background-color: #AD9466;
+  text-align: center;
+}
+
+#preguntasfrecuentes {
+  background-color: #AD9466;
+  text-align: center;
+}
+
+/*FINZALIZO SCROLLSPY (SOBRE DORON)*/
+/*INICIO CONTENEDOR DE CONTACTO*/
+.contenedor .form .form-header .form-title {
+  font-weight: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #78866b;
+  text-align: center;
+  padding: 14px 0;
+}
+
+.contenedor .form .form-header .form-title span {
+  color: beige;
+}
+
+.contenedor .form {
+  background: rgba(0, 0, 0, 0.6);
+  width: 90%;
+  max-width: 650px;
+  margin: auto;
+  padding: 5px 35px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 3px;
+}
+
+.contenedor .form .form-label {
+  display: block;
+  color: #78866b;
+  font-size: 20px;
+  font-family: Roboto;
+  position: relative;
+}
+
+.contenedor .form .form-input, .form-textarea {
+  background: rgba(0, 0, 0, 0.7);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #333;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #decdbe;
+  font-family: Roboto;
+}
+
+.contenedor .form .form-textarea {
+  resize: vertical;
+  max-height: 150px;
+  min-height: 50px;
+}
+
+.contenedor .form .btn-submit {
+  width: 100%;
+  font-family: Roboto;
+  outline: none;
+  background: #78866b;
+  font-size: 20px;
+  border: none;
+  padding: 15px 0;
+  cursor: pointer;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.contenedor .form .btn-submit:hover {
+  background-color: #4b5443;
+}
+
+/*FINALIZO CONTENEDOR DE CONTACTO*/
+/*INICIO MAPA*/
+/*PASE EL MAPA PARA EL IMPORT PARA PROBAR*/
+.mapa {
+  display: block;
+  outline: block;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+/*FINALIZO MAPA*/
+/*INICIO EXTEND PARA PROBAR*/
+.card, .card--nuevo {
+  background-color: #333;
+  color: #78866b;
+  height: 800px;
+  width: 700px;
+}
+
+.card--nuevo {
+  border-radius: 3px;
+  color: #decdbe;
+  font-family: "Bebas Neue";
+  font-size: 30px;
+}
+
+/*FINZALIZO EXTEND */
+/*INICIO MEDIAS*/
+@media only screen and (min-width: 1025px) {
+  #jumbotron {
+    height: 820px;
+    width: 100vw;
+  }
+  #jumbotron h1 {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 50px;
+  }
+  #jumbotron p {
+    text-align: center;
+    text-shadow: 0 0 5px #000;
+    font-size: 30px;
+  }
+}
+
+/*FINALIZO MEDIAS*/
+/*# sourceMappingURL=main.css.map */
