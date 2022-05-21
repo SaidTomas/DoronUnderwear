@@ -16,7 +16,7 @@
   background-color: #decdbe;
 }
 
-.body-cart {
+#body-cart {
   background-color: #decdbe;
 }
 
@@ -50,8 +50,20 @@
           justify-content: flex-end;
 }
 
+.nav-item {
+  background-color: #4b5443;
+  border: 1px solid #3e4637;
+  margin-left: 3px;
+  margin-right: 3px;
+  border-radius: 6%;
+}
+
+.nav-item:hover {
+  background-color: #78866b;
+}
+
 .linkactive {
-  color: black;
+  background-color: #78866b;
 }
 
 /* FINALIZO NAVBAR*/
@@ -150,12 +162,12 @@ footer a {
 }
 
 #queofrecemos {
-  background-color: #AD9466;
+  background-color: #decdbe;
   text-align: center;
 }
 
 #preguntasfrecuentes {
-  background-color: #AD9466;
+  background-color: #e5d8c8;
   text-align: center;
 }
 
@@ -241,22 +253,6 @@ footer a {
 }
 
 /*FINALIZO MAPA*/
-/*INICIO EXTEND PARA PROBAR*/
-.card, .card--nuevo {
-  background-color: #333;
-  color: #78866b;
-  height: 800px;
-  width: 700px;
-}
-
-.card--nuevo {
-  border-radius: 3px;
-  color: #decdbe;
-  font-family: "Bebas Neue";
-  font-size: 30px;
-}
-
-/*FINZALIZO EXTEND */
 /*INICIO MEDIAS*/
 @media only screen and (min-width: 1025px) {
   #jumbotron {

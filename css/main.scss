@@ -31,7 +31,7 @@ $xxlarge: 60px;
 .body-male {
     background-color: $color2;
 }
-.body-cart {
+#body-cart {
     background-color: $color2;
 }
                     /*INICIO NAVBAR*/
@@ -57,8 +57,18 @@ $xxlarge: 60px;
     flex-basis: auto;
     justify-content: flex-end;
 }
+.nav-item {
+    background-color: $color5;
+    border: 1px solid #3e4637;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 6%;
+}
+.nav-item:hover {
+    background-color: $color1;
+}
 .linkactive {
-    color: black;
+    background-color: $color1;
 }
 
 
@@ -137,34 +147,28 @@ footer {
     background-color: #333;
     color:beige;
     text-align: center;
-}
-footer {
     p {
         font-size: 20px;
     }
-}
-footer {
     a {
         font-size: 20px;
         letter-spacing: 25px;
         color: beige;
     }
 }
-
                     /*FINALIZO FOOTER*/
                     /*INICIO SCROLOLSPY(SOBRE DORON)*/
-@mixin caja ($color) {
-background-color:$color3;
+#sobrenosotros {
+background-color: $color3;
 text-align: center;
 }
-#sobrenosotros {
-@include caja($color3)
-}
 #queofrecemos {
-@include caja($color2)
+background-color: $color2;
+text-align: center;
 }
 #preguntasfrecuentes {
-@include caja($color4)
+background-color: $color4;
+text-align: center;
 }
                     /*FINZALIZO SCROLLSPY (SOBRE DORON)*/
                     /*INICIO CONTENEDOR DE CONTACTO*/
@@ -231,23 +235,8 @@ color: beige;
                     /*FINALIZO CONTENEDOR DE CONTACTO*/
                     /*INICIO MAPA*/
                     /*PASE EL MAPA PARA EL IMPORT PARA PROBAR*/
-@import "_main";
+@import "_mapa-contacto";
                     /*FINALIZO MAPA*/
-                    /*INICIO EXTEND PARA PROBAR*/
-.card {
-    background-color: #333;
-    color: #78866b;
-    height: 800px;
-    width: 700px;
-}
-.card--nuevo {
-    @extend .card;
-    border-radius:3px ;
-    color: #decdbe;
-    font-family: $font1;
-    font-size: $large;
-}
-                    /*FINZALIZO EXTEND */
                     /*INICIO MEDIAS*/
 @media only screen and (min-width: 1025px) {
 #jumbotron {
