@@ -171,6 +171,10 @@ footer a {
   text-align: center;
 }
 
+.titulo-scroll {
+  font-size: 45px;
+}
+
 /*FINZALIZO SCROLLSPY (SOBRE DORON)*/
 /*INICIO CONTENEDOR DE CONTACTO*/
 .contenedor .form .form-header .form-title {
