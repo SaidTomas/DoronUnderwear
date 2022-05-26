@@ -109,15 +109,16 @@ margin-bottom: 0;
     padding-left: 0;
     padding-right: 0;
 }
+#carousel-home img {
+    width: 100%;
+    height: 100%;
+}
 .titulocarousel {
     font-size: 60px;
     font-family:'Bebas Neue', sans-serif;
     text-align: center;
 
 }
-.icono-boxer {
-    text-align: center;
-}                   /*?????????*/
 .parrafocarousel {
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -142,20 +143,102 @@ margin-bottom: 0;
                     /*FINALIZO SOBRE NOSOTROS*/
                     /*INICIO FOOTER*/
 footer {
-    height: 150px;
     width: 100%;
-    background-color: #333;
-    color:beige;
-    text-align: center;
-    p {
-        font-size: 20px;
+    background-color: #202020;
+    color:white;
+}
+.container-footer-all {
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    padding: 40px;
+}
+.container-fo {
+    display: flex;
+    justify-content: space-between;
+
+}
+.column1 {
+    max-width: 500px;
+}
+.column1 h2 {
+    font-size: $large;
+}
+.column1 p {
+    font-size: $small;
+    color: #c7c7c7;
+    margin-top: 20px;
+}
+.column2 {
+    max-width: 500px;
+}
+.column2 h2 {
+    font-size: $large;
+}
+.row-contact {
+    margin-top: 20px;
+    display: flex;
+}
+.row-contact img {
+    width: 36px;
+    height: 36px;
+}
+.row-contact label {
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+    color: #c7c7c7;
+}
+.column3 {
+    max-width: 500px;
+}
+.column3 h2 {
+    font-size: $large;
+}
+.row2 {
+    margin-top: 20px;
+    display: flex;
+}
+.row2 img {
+    width: 36px;
+    height: 36px;
+}
+.row2 label {
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+    color: #c7c7c7;
+}
+.container-fot {
+    width: 100%;
+    background-color: #101010;
+}
+.footer-god {
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.copyright {
+    color: #c7c7c7;
+}
+.informacion {
+    color: #c7c7c7;
+}
+
+@media screen and (max-width: 1100px) {
+    .container-fo {
+        flex-wrap: wrap;
     }
-    a {
-        font-size: 20px;
-        letter-spacing: 25px;
-        color: beige;
+    .clomun1 {
+        max-width: 100%;
+    }
+    .column2, .column3 {
+        margin-top: 40px;
     }
 }
+
                     /*FINALIZO FOOTER*/
                     /*INICIO SCROLOLSPY(SOBRE DORON)*/
 #sobrenosotros {
@@ -174,6 +257,21 @@ text-align: center;
     font-size: $xlarge;
 }
                     /*FINZALIZO SCROLLSPY (SOBRE DORON)*/
+                    /*INICIO PAGINA MALE*/
+.card {
+    background-color: $color4;
+}
+.card img {
+    width: 100%;
+    height: 100%;
+}
+
+                    /*FINALIZO PAGINA MALE*/
+                    /*INICIO PAGINA DE CART*/
+.cart-row label {
+    color: #000;
+}
+                    /*FINALIZO PAGINA DE CART*/
                     /*INICIO CONTENEDOR DE CONTACTO*/
 .contenedor .form .form-header .form-title {
     font-weight: normal;
