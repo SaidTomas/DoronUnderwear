@@ -285,6 +285,10 @@ footer {
   font-size: 45px;
 }
 
+.img-talles {
+  border-radius: 4px;
+}
+
 /*FINZALIZO SCROLLSPY (SOBRE DORON)*/
 /*INICIO PAGINA MALE*/
 .card {
@@ -298,8 +302,30 @@ footer {
 
 /*FINALIZO PAGINA MALE*/
 /*INICIO PAGINA DE CART*/
-.cart-row label {
-  color: #000;
+.main-cart {
+  padding: 30px;
+}
+
+.subtitulo-cart {
+  color: #4b5443;
+  font-weight: bold;
+}
+
+.color-titulo-yourcart {
+  color: #4b5443;
+}
+
+.tres-objetos {
+  background-color: #4b5443;
+}
+
+.color-boton {
+  background-color: #4b5443;
+  color: white;
+}
+
+.color-boton:hover {
+  background-color: #78866b;
 }
 
 /*FINALIZO PAGINA DE CART*/

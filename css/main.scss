@@ -256,6 +256,9 @@ text-align: center;
 .titulo-scroll {
     font-size: $xlarge;
 }
+.img-talles {
+    border-radius: 4px;
+}
                     /*FINZALIZO SCROLLSPY (SOBRE DORON)*/
                     /*INICIO PAGINA MALE*/
 .card {
@@ -268,8 +271,25 @@ text-align: center;
 
                     /*FINALIZO PAGINA MALE*/
                     /*INICIO PAGINA DE CART*/
-.cart-row label {
-    color: #000;
+.main-cart {
+    padding: 30px;
+}
+.subtitulo-cart {
+    color: #4b5443;
+    font-weight: bold;
+}
+.color-titulo-yourcart {
+    color: #4b5443;
+}
+.tres-objetos {
+    background-color: #4b5443;
+}
+.color-boton {
+    background-color: #4b5443;
+    color: white;
+}
+.color-boton:hover {
+    background-color: $color1;
 }
                     /*FINALIZO PAGINA DE CART*/
                     /*INICIO CONTENEDOR DE CONTACTO*/
