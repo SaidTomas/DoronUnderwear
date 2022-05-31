@@ -52,17 +52,12 @@ $xxlarge: 60px;
         color: black;
     }
 }
-.navbar-expand-md .navbar-collapse {   /*???????????*/
-    display: flex!important;
-    flex-basis: auto;
-    justify-content: flex-end;
-}
 .nav-item {
     background-color: $color5;
     border: 1px solid #3e4637;
     margin-left: 3px;
     margin-right: 3px;
-    border-radius: 6%;
+    border-radius: 0%;
 }
 .nav-item:hover {
     background-color: $color1;
@@ -378,9 +373,14 @@ color: beige;
 }
 
 
-@media only screen and (min-width: 576px) {
-
+@media only screen and (min-width: 576px)  {
+.navbar-expand-sm .navbar-collapse{
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: flex-end;
 }
+}
+
                     /*FINALIZO MEDIAS*/
 
 
