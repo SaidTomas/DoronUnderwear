@@ -1,3 +1,5 @@
+/*INICIO VARIABLES*/
+/*FINALIZO VARIABLES*/
 /*General*/
 * {
   margin: 0%;
@@ -52,6 +54,19 @@
 
 .linkactive {
   background-color: #78866b;
+}
+
+@media only screen and (min-width: 576px) {
+  .navbar-expand-sm .navbar-collapse {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
 }
 
 /* FINALIZO NAVBAR*/
@@ -388,7 +403,7 @@ footer {
 
 /*FINALIZO CONTENEDOR DE CONTACTO*/
 /*INICIO MAPA*/
-/*PASE EL MAPA PARA EL IMPORT PARA PROBAR*/
+/*PASE EL MAPA PARA EL IMPORT*/
 .mapa {
   display: block;
   outline: block;
@@ -415,19 +430,6 @@ footer {
     text-align: center;
     text-shadow: 0 0 5px #000;
     font-size: 30px;
-  }
-}
-
-@media only screen and (min-width: 576px) {
-  .navbar-expand-sm .navbar-collapse {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -ms-flex-preferred-size: auto;
-        flex-basis: auto;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
   }
 }
 

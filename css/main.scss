@@ -1,3 +1,4 @@
+/*INICIO VARIABLES*/
 $color1: #78866b;
 $color2: #decdbe;
 $color3: #AD9466;
@@ -15,6 +16,7 @@ $medium: 24px;
 $large: 30px;
 $xlarge: 45px;
 $xxlarge: 60px;
+/*FINALIZO VARIABLES*/
 
 
 /*General*/
@@ -65,10 +67,16 @@ $xxlarge: 60px;
 .linkactive {
     background-color: $color1;
 }
-
+@media only screen and (min-width: 576px)  {
+.navbar-expand-sm .navbar-collapse{
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: flex-end;
+}
+}
 
                     /* FINALIZO NAVBAR*/
-                    
+
                     /*INICIO JUMBOTRON*/
 
 #jumbotron {
@@ -94,6 +102,7 @@ margin-bottom: 0;
     }   
 }
                     /*FINALIZO JUMBOTRON*/
+
                     /*INICIO CAROUSEL*/
 #carousel-home {
     width: 100vw;
@@ -122,6 +131,7 @@ margin-bottom: 0;
 }
 
                     /*FINALIZO CAROUSEL*/
+
                     /*INICIO SOBRE NOSOTROS*/
 .sobrenosotros {
     background-color:$color1;
@@ -136,6 +146,7 @@ margin-bottom: 0;
 }
 
                     /*FINALIZO SOBRE NOSOTROS*/
+
                     /*INICIO FOOTER*/
 footer {
     width: 100%;
@@ -235,6 +246,7 @@ footer {
 }
 
                     /*FINALIZO FOOTER*/
+
                     /*INICIO SCROLOLSPY(SOBRE DORON)*/
 #sobrenosotros {
 background-color: $color3;
@@ -255,6 +267,7 @@ text-align: center;
     border-radius: 4px;
 }
                     /*FINZALIZO SCROLLSPY (SOBRE DORON)*/
+
                     /*INICIO PAGINA MALE*/
 .card {
     background-color: $color4;
@@ -265,6 +278,7 @@ text-align: center;
 }
 
                     /*FINALIZO PAGINA MALE*/
+
                     /*INICIO PAGINA DE CART*/
 .main-cart {
     padding: 30px;
@@ -287,6 +301,7 @@ text-align: center;
     background-color: $color1;
 }
                     /*FINALIZO PAGINA DE CART*/
+
                     /*INICIO CONTENEDOR DE CONTACTO*/
 .contenedor .form .form-header .form-title {
     font-weight: normal;
@@ -349,10 +364,12 @@ color: beige;
     background-color: $color5;
 }
                     /*FINALIZO CONTENEDOR DE CONTACTO*/
+
                     /*INICIO MAPA*/
-                    /*PASE EL MAPA PARA EL IMPORT PARA PROBAR*/
+                    /*PASE EL MAPA PARA EL IMPORT*/
 @import "_mapa-contacto";
                     /*FINALIZO MAPA*/
+
                     /*INICIO MEDIAS*/
 @media only screen and (min-width: 1025px) {
 #jumbotron {
@@ -373,13 +390,7 @@ color: beige;
 }
 
 
-@media only screen and (min-width: 576px)  {
-.navbar-expand-sm .navbar-collapse{
-    display: flex!important;
-    flex-basis: auto;
-    justify-content: flex-end;
-}
-}
+
 
                     /*FINALIZO MEDIAS*/
 
